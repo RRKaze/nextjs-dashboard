@@ -4,9 +4,9 @@ import LatestInvoices from '@/app/ui/dashboard/latest-invoices';
 import { lusitana } from '@/app/ui/fonts';
 import { Suspense } from 'react';
 import { RevenueChartSkeleton, LatestInvoicesSkeleton, CardsSkeleton } from '@/app/ui/skeletons';
-import type { Metadata } from 'next';
+import  Metadata  from 'next';
 
-const metadata: Metadata = {
+const metadata: typeof Metadata = {
     title: 'Dashboard',
 };
 export {metadata};

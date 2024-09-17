@@ -9,9 +9,10 @@ import { fetchInvoicesPages } from '@/app/lib/data';
 
 import  Metadata  from 'next';
  
-export const metadata: Metadata = {
+const metadata: typeof Metadata = {
   title: 'Invoices | Acme Dashboard',
 };
+export {metadata};
  
 export default async function Page({
     searchParams,

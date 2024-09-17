@@ -3,9 +3,11 @@ import Breadcrumbs from '@/app/ui/invoices/breadcrumbs';
 import { fetchCustomers } from '@/app/lib/data';
 import Metadata from 'next';
 
-export const metadata: Metadata = {
+const metadata: typeof Metadata = {
     title: 'Create Invoice',
 };
+export {metadata};
+
 export default async function Page() {
   const customers = await fetchCustomers();
  

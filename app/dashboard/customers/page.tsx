@@ -1,6 +1,6 @@
 import  Metadata from 'next';
 
-const metadata: Metadata = {
+const metadata: typeof Metadata = {
     title: 'Customers',
 };
 export {metadata};
